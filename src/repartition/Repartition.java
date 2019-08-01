@@ -17,7 +17,7 @@ public class Repartition {
             int numberRandomTile = randomTile.nextInt(tiles.size());
             int[] tempTile = tiles.get(numberRandomTile);
             tiles.removeElement(tiles.get(numberRandomTile));
-            System.out.println("funciona");
+        
         }
         
         
